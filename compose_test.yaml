@@ -5,7 +5,7 @@ services:
   base-app-dev:
     image: base-app-img:dev
     build:
-      context: .
+      context: backend
       target: dev
     working_dir: /app
     volumes:

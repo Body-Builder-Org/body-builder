@@ -5,7 +5,7 @@ services:
   body-builder-app:
     image: body-builder-app:dev
     build:
-      context: .
+      context: backend
       target: dev
     volumes:
       - logs_app_v:/app/logs
