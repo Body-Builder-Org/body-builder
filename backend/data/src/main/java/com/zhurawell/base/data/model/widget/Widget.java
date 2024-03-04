@@ -14,7 +14,7 @@ import java.math.BigInteger;
 @Entity
 @Table(name = "widget")
 @NoArgsConstructor
-@SequenceGenerator(name = "widget_generator", sequenceName = "widget_seq", allocationSize = 20, initialValue = 5, schema = "public",)
+@SequenceGenerator(name = "widget_generator", sequenceName = "widget_seq", allocationSize = 20, initialValue = 5, schema = "public")
 public class Widget extends BaseEntity {
 
     @Id
