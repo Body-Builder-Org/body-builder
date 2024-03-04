@@ -29,7 +29,7 @@ public class Widget extends BaseEntity {
 
     @Column(name = "data")
     @Type(type = "StringJsonUserType")
-    private String data;   // TODO check how it works
+    private String data;
 
     @Column
     private BigInteger parentId;
